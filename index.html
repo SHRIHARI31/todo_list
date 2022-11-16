@@ -19,22 +19,28 @@
         <section class="create-todo">
             <h3>create a todo</h3>
             <form id="new-todo-form">
-                <h2>what's on your todo?</h2>
+                <h4>what's on your todo?</h4>
                 <input type="text" name="content" placeholder="e.g watch movie" id="content">
             </form>
             <h4>pick a catogary</h4>
-            <div class="option">
-                <label>
-                    <input type="radio" name="catogary" id="catagory" value="business">
-                    <span class="bubble business"></span>
-                </label>
-                <div>personal</div>
-                <label>
-                    <input type="radio" name="catogary" id="catagory" value="personal">
-                    <span class="bubble personal"></span>
-                </label>
-            </div>
-            <input type="submit" value="add-todo" />
+            <form>
+                <div class="options">
+                    <label>
+                        <input type="radio" name="catogary" id="catagory" value="business">
+                        <span class="bubble business"></span>
+                        <div>business</div>
+                    </label>
+                 
+                    <label>
+                        <input type="radio" name="catogary" id="catagory" value="personal">
+                        <span class="bubble personal"></span>
+                        <div>personal</div>
+                    </label>
+                  
+                </div>
+                <input type="submit" value="add-todo" />
+            </form>
+
         </section>
         <section class="todo-list">
             <h3>TODO-LIST</h3>
