@@ -1,0 +1,8 @@
+:root {
+    --primary: #ff08ce;
+    --business: #24aae2;
+    --personal: var(--primary);
+    --light: #EEE;
+    --dark: #313154;
+
+}
